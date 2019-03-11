@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context="com.bachelorshelter.anik.medicaladviser.activities.DermatologistActivity">
+    android:layout_height="match_parent"
+    tools:context="com.bachelorshelter.anik.medicaladviser.activities.DentistActivity"
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/gyn1"
         android:layout_margin="10dp"
-        android:id="@+id/der1"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:text="Professor Dr. A. Z. M. Maidul Islam\nFormer Chairman, Department of Dermatology, BSMMU\nPhone: +880 1722068043"
-        tools:ignore="LabelFor,MissingConstraints,TextFields"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent" />
+        android:text="Professor Dr. Md. Shamsul Alam\nQualification : BDS, DCD(USSR), FADI(USA)\nChairman,BSM Medical University(Old IPGMR)\nPhone: +880-2-9612345-54, 9615412"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"/>
+
     <Button
         android:id="@+id/videoButton"
         android:layout_width="match_parent"
@@ -27,13 +30,13 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
+        android:id="@+id/gyn2"
         android:layout_margin="10dp"
-        android:id="@+id/der2"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:text="\n\n\nProfessor Dr. Mir Nazrul Islam\nDepartment of Dermatology,BIRDEM and Ibrahim Medical College\nPhone: +880 1722068043"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        tools:ignore="LabelFor,MissingConstraints,TextFields"/>
+        android:layout_height="wrap_content"
+        android:text="\n\nDr. Salahuddin ( Swapon )\nQualification : B.D.S, FCPS\nAssistant Professor and Head of Departmen BSMMU\nPhone: +880 1711958143"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/videoButton"
@@ -47,4 +50,3 @@
         tools:ignore="DuplicateIds" />
 
 </LinearLayout>
-
