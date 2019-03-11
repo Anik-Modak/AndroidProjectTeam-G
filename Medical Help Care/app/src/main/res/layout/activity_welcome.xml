@@ -67,10 +67,10 @@ tools:context="com.bachelorshelter.anik.medicaladviser.activities.WelcomeActivit
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_weight="1"
-        android:background="@color/cardview_shadow_start_color"
-        android:text="Get_Started"
-        android:textColor="@color/colorAccent"
-        android:textSize="20sp" />
+        android:background="@color/cardview_light_background"
+        android:text="Get Started"
+        android:textColor="@color/colorDivider"
+        android:textSize="15sp" />
 
 </LinearLayout>
 </android.support.constraint.ConstraintLayout>

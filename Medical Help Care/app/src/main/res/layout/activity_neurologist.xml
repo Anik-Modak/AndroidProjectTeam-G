@@ -14,7 +14,7 @@
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Professor Dr. Md. Ayub Ali Chowdhury MBBS, FCPS (Medicine), MD (Nephrology) Professor, Department of Nephrology Phone: +880-2-9126625-6, 9128835-7"
+        android:text="Professor Dr. Md. Ayub Ali Chowdhury MBBS, FCPS (Medicine), MD (Nephrology) Professor, Department of Neurology Phone: +880-2-9126625-6, 9128835-7"
         android:visibility="visible"
         tools:ignore="MissingConstraints"/>
 
@@ -24,7 +24,7 @@
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Professor Dr. Md. Firoz Khan MBBS, MD, FRCP ( England ), ISN fellow ( Japan ) Professor, Department of Nephrology Phone: +880-2-9661213"
+        android:text="Professor Dr. Md. Firoz Khan MBBS, MD, FRCP ( England ), ISN fellow ( Japan ) Professor, Department of Neurology Phone: +880-2-9661213"
         tools:ignore="MissingConstraints" />""
 
 </LinearLayout>
