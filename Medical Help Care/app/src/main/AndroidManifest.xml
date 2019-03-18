@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bachelorshelter.anik.medicaladviser">
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -48,7 +50,9 @@
         <activity android:name=".activities.NephrologistActivity" />
         <activity android:name=".activities.GynecologistActivity" />
         <activity android:name=".activities.EyeSpecialistActivity" />
-        <activity android:name=".activities.NeurologistActivity"></activity>
+        <activity android:name=".activities.NeurologistActivity" />
+        <activity android:name=".activities.DentistActivity" />
+        <activity android:name=".activities.VideoConferenceActivity"></activity>
     </application>
 
 </manifest>

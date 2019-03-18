@@ -118,7 +118,7 @@ public class OnlineHospital extends AppCompatActivity {
     }
 
     public void b8Activity() {
-        Intent intent = new Intent(this, EyeSpecialistActivity.class);
+        Intent intent = new Intent(this, DentistActivity.class);
         startActivity(intent);
     }
 
